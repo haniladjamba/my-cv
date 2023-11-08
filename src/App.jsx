@@ -1,13 +1,9 @@
-import WebApp from "./components";
-import Header from "./components";
+import Home from "./components";
 
 function App() {
   return (
-    <>
-      <WebApp />
-      <Header />
-    </>
-  );
+    <Home />
+  )
 }
 
 export default App;
