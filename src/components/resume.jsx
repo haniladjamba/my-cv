@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 const Resume = () => {
   return (
     <div>
@@ -7,107 +8,93 @@ const Resume = () => {
           <div className="section-title">
             <h2>Resume</h2>
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            I am proficient in game development and web design, 
+            driven by a fervent passion for merging creativity and 
+            technology. With a background in illustration and several 
+            completed game projects, I bring a unique blend of artistic 
+            vision and technical expertise. Seeking to leverage my diverse 
+            skill set to create innovative, immersive gaming experiences 
+            while continuing to excel in web development and illustration.
             </p>
           </div>
           <div className="row">
             <div className="col-lg-6" data-aos="fade-up">
-              <h3 className="resume-title">Sumary</h3>
-              <div className="resume-item pb-0">
-                <h4>Alex Smith</h4>
-                <p>
-                  <em>
-                    Innovative and deadline-driven Graphic Designer with 3+
-                    years of experience designing and developing user-centered
-                    digital/print marketing material from initial concept to
-                    final, polished deliverable.
-                  </em>
-                </p>
-                <ul>
-                  <li>Portland par 127,Orlando, FL</li>
-                  <li>(123) 456-7891</li>
-                  <li>alice.barkley@example.com</li>
-                </ul>
-              </div>
               <h3 className="resume-title">Education</h3>
               <div className="resume-item">
-                <h4>Master of Fine Arts &amp; Graphic Design</h4>
-                <h5>2015 - 2016</h5>
+                <h4>Schools of Fine Arts</h4>
+                <h5>2018 - 2020</h5>
                 <p>
-                  <em>Rochester Institute of Technology, Rochester, NY</em>
-                </p>
-                <p>
-                  Qui deserunt veniam. Et sed aliquam labore tempore sed
-                  quisquam iusto autem sit. Ea vero voluptatum qui ut
-                  dignissimos deleniti nerada porti sand markend
+                Armed with over two years of dedicated study in 
+                Fine Arts, I transitioned seamlessly into the 
+                realm of freelance artistry. This journey equipped 
+                me with a strong foundation in visual storytelling, 
+                illustration, and creative problem-solving. As a 
+                freelance artist, I've had the opportunity to 
+                apply my skills across diverse projects, merging 
+                my passion for artistic expression with real-world 
+                applications in various mediums and platforms.
                 </p>
               </div>
               <div className="resume-item">
-                <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-                <h5>2010 - 2014</h5>
+                <h4>Bachelor of Computer Science</h4>
+                <h5>2021 - present</h5>
                 <p>
-                  <em>Rochester Institute of Technology, Rochester, NY</em>
+                  <em>University of Klabat, Airmandidi, Manado</em>
                 </p>
                 <p>
-                  Quia nobis sequi est occaecati aut. Repudiandae et iusto quae
-                  reiciendis et quis Eius vel ratione eius unde vitae rerum
-                  voluptates asperiores voluptatem Earum molestiae consequatur
-                  neque etlon sader mart dila
+                Throughout my pursuit of a Bachelor's 
+                in Computer Science, I've been captivated by the 
+                world of coding from the very start. It's where 
+                I discovered my true passion. A fusion of 
+                storytelling and technology. I found my niche 
+                in game development, utilizing it as a canvas 
+                to not only enhance my coding skills but also 
+                to amplify the power of storytelling. This journey 
+                has not only nurtured my coding expertise but also 
+                sharpened my problem-solving skills, allowing me 
+                to weave intricate narratives and immersive 
+                experiences within the realm of game development.
                 </p>
               </div>
             </div>
             <div className="col-lg-6" data-aos="fade-up" data-aos-delay={100}>
-              <h3 className="resume-title">Professional Experience</h3>
+              <h3 className="resume-title">Working Experience</h3>
               <div className="resume-item">
-                <h4>Senior graphic design specialist</h4>
-                <h5>2019 - Present</h5>
-                <p>
-                  <em>Experion, New York, NY </em>
-                </p>
+                <h4>Freelance Illustrator</h4>
+                <h5>2020 - Present</h5>
                 <ul>
                   <li>
-                    Lead in the design, development, and implementation of the
-                    graphic, layout, and production communication materials
+                    With over 15,000 hours of experience in this field
                   </li>
                   <li>
-                    Delegate tasks to the 7 members of the design team and
-                    provide counsel on all aspects of the project.{" "}
+                    Working on books cover, posters, digital illustration and comic books.{" "}
                   </li>
                   <li>
-                    Supervise the assessment of all graphic materials in order
-                    to ensure quality and accuracy of the design
-                  </li>
-                  <li>
-                    Oversee the efficient use of production project budgets
-                    ranging from $2,000 - $25,000
+                    mastering the art of turning concepts into captivating visual 
+                    narratives, painting stories that resonate with depth and 
+                    imagination.
                   </li>
                 </ul>
               </div>
               <div className="resume-item">
-                <h4>Graphic design specialist</h4>
-                <h5>2017 - 2018</h5>
+                <h4>Game and Web developer</h4>
+                <h5>2022 - present</h5>
                 <p>
-                  <em>Stepping Stone Advertising, New York, NY</em>
+                  <em>Fullstack indie developer, Manado</em>
                 </p>
                 <ul>
                   <li>
-                    Developed numerous marketing programs (logos,
-                    brochures,infographics, presentations, and advertisements).
+                    Developed various 2D and 3D games (platformer,
+                    racing, shooter).
                   </li>
                   <li>
-                    Managed up to 5 projects or tasks at a given time while
-                    under pressure
+                    Developed small e-commerce website
                   </li>
                   <li>
-                    Recommended and consulted with clients on the most
-                    appropriate graphic design
+                    Joining the GDSC and be part of the IoT core team
                   </li>
                   <li>
-                    Created 4+ design presentations and proposals a month for
-                    clients and account managers
+                    Working in collaboration in multiple teams at a time
                   </li>
                 </ul>
               </div>

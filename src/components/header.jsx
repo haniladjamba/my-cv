@@ -13,7 +13,7 @@ const Header = () => {
               className="img-fluid rounded-circle"
             />
             <h1 className="text-light">
-              <a href="index.html">Alex Smith</a>
+              <a href="index.html">Hanz</a>
             </h1>
             <div className="social-links mt-3 text-center">
               <a href="#" className="twitter">

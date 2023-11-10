@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 const Services = () => {
   return (
     <div>
@@ -7,23 +8,26 @@ const Services = () => {
           <div className="section-title">
             <h2>Services</h2>
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            As a versatile strudent, my services span a 
+            spectrum of creative and technical realms. Specializing 
+            in game development, web design, and artistic 
+            illustration, I offer a range of expertise tailored 
+            to meet diverse needs.
             </p>
           </div>
           <div className="row">
             <div className="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
               <div className="icon">
-                <i className="bi bi-briefcase" />
+                <i className="bi bi-unity" />
               </div>
               <h4 className="title">
-                <a href>Lorem Ipsum</a>
+                <a href>Assets creation</a>
               </h4>
               <p className="description">
-                Voluptatum deleniti atque corrupti quos dolores et quas
-                molestias excepturi sint occaecati cupiditate non provident
+              With a focus on creating assets that seamlessly 
+              integrate into Unity environments, I aim to assist 
+              developers in building compelling and visually engaging 
+              gaming worlds. Whether it's characters or environments design.
               </p>
             </div>
             <div
@@ -32,14 +36,15 @@ const Services = () => {
               data-aos-delay={100}
             >
               <div className="icon">
-                <i className="bi bi-card-checklist" />
+                <i className="bi bi-filetype-cs" />
               </div>
               <h4 className="title">
-                <a href>Dolor Sitema</a>
+                <a href>C# scripting</a>
               </h4>
               <p className="description">
-                Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat tarad limino ata
+              From implementing game mechanics to creating intricate 
+              gameplay features, my expertise in C# coding ensures 
+              a seamless integration of functionality and interactivity.
               </p>
             </div>
             <div
@@ -48,14 +53,15 @@ const Services = () => {
               data-aos-delay={200}
             >
               <div className="icon">
-                <i className="bi bi-bar-chart" />
+                <i className="bi bi-filetype-jsx" />
               </div>
               <h4 className="title">
-                <a href>Sed ut perspiciatis</a>
+                <a href>Front-End developer</a>
               </h4>
               <p className="description">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur
+              My services cater to enhancing the interactivity and 
+              usability of web-based projects. Whether it's building 
+              components or implementing state-of-the-art UI/UX designs.
               </p>
             </div>
             <div
@@ -64,14 +70,15 @@ const Services = () => {
               data-aos-delay={300}
             >
               <div className="icon">
-                <i className="bi bi-binoculars" />
+                <i className="bi bi-brush" />
               </div>
               <h4 className="title">
-                <a href>Magni Dolores</a>
+                <a href>Digital illustration</a>
               </h4>
               <p className="description">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum
+              From concept art and character design to vibrant visual 
+              narratives, my expertise extends to a wide spectrum of 
+              digital artistry.
               </p>
             </div>
             <div
@@ -80,14 +87,15 @@ const Services = () => {
               data-aos-delay={400}
             >
               <div className="icon">
-                <i className="bi bi-brightness-high" />
+                <i className="bi bi-book-half" />
               </div>
               <h4 className="title">
-                <a href>Nemo Enim</a>
+                <a href>Book cover</a>
               </h4>
               <p className="description">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque
+              My expertise focuses on creating visually 
+              striking and marketable covers that resonate 
+              with your target audience.
               </p>
             </div>
             <div
@@ -96,14 +104,14 @@ const Services = () => {
               data-aos-delay={500}
             >
               <div className="icon">
-                <i className="bi bi-calendar4-week" />
+                <i className="bi bi-file-person" />
               </div>
               <h4 className="title">
-                <a href>Eiusmod Tempor</a>
+                <a href>Poster illustration</a>
               </h4>
               <p className="description">
-                Et harum quidem rerum facilis est et expedita distinctio. Nam
-                libero tempore, cum soluta nobis est eligendi
+              I offer a range of design services aimed 
+              at crafting visually compelling and impactful posters.
               </p>
             </div>
           </div>

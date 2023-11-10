@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 const Facts = () => {
   return (
     <div>
@@ -7,10 +8,17 @@ const Facts = () => {
           <div className="section-title">
             <h2>Facts</h2>
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            In addition to being fluent in Indonesian and English, 
+            I'm currently immersing myself in learning Japanese. I take pride in my diverse 
+            portfolio of completed game projects, encompassing both 2D 
+            and 3D creations, alongside the successful development of 
+            an e-commerce website. With over five years of experience 
+            as an illustrator, I've cultivated a keen eye for visual 
+            storytelling and design. My knack for problem-solving and 
+            creativity has not only led me to win several competitions, 
+            including coding challenges and mascot creation contests hosted 
+            by my campus, but has also enriched my approach to both technical 
+            and artistic endeavors. 
             </p>
           </div>
           <div className="row no-gutters">
@@ -27,7 +35,7 @@ const Facts = () => {
                   className="purecounter"
                 />
                 <p>
-                  <strong>Happy Clients</strong> consequuntur quae
+                  <strong>Happy Clients</strong> 5 years experience as Illustrator
                 </p>
               </div>
             </div>
@@ -45,7 +53,7 @@ const Facts = () => {
                   className="purecounter"
                 />
                 <p>
-                  <strong>Projects</strong> adipisci atque cum quia aut
+                  <strong>Projects</strong> 2D and 3D games
                 </p>
               </div>
             </div>
@@ -63,7 +71,7 @@ const Facts = () => {
                   className="purecounter"
                 />
                 <p>
-                  <strong>Hours Of Support</strong> aut commodi quaerat
+                  <strong>Support</strong> Open source contribution
                 </p>
               </div>
             </div>
@@ -81,7 +89,7 @@ const Facts = () => {
                   className="purecounter"
                 />
                 <p>
-                  <strong>Hard Workers</strong> rerum asperiores dolor
+                  <strong>Team Workers</strong> Open to collaboration
                 </p>
               </div>
             </div>

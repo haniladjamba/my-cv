@@ -22,7 +22,6 @@ function App() {
         <Resume />
         <Portofolio />
         <Services />
-        <Testimonial />
         <Contact />
       </main>
       <Footer />
