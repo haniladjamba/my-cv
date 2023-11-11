@@ -1,3 +1,5 @@
+import TypedText from "./behaviour/heroAnim";
+
 /* eslint-disable react/no-unescaped-entities */
 const Hero = () => {
   return (
@@ -10,11 +12,7 @@ const Hero = () => {
         <div className="hero-container" data-aos="fade-in">
           <h1>Hani Ladjamba</h1>
           <p>
-            I'm{" "}
-            <span
-              className="typed"
-              data-typed-items="Designer, Developer, Freelancer, Photographer"
-            />
+            I'm <TypedText />
           </p>
         </div>
       </section>
