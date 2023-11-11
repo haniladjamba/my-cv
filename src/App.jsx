@@ -6,7 +6,6 @@ import Skills from "./components/AboutComponents/skills";
 import Resume from "./components/resume";
 import Portofolio from "./components/portofolio";
 import Services from "./components/services";
-import Testimonial from "./components/Testimonial/testimonial";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 

@@ -8,7 +8,7 @@ const Header = () => {
         <div className="d-flex flex-column">
           <div className="profile">
             <img
-              src="assets/img/profile-img.jpg"
+              src="src/assets/img/profile-img.jpg"
               alt
               className="img-fluid rounded-circle"
             />
@@ -17,19 +17,19 @@ const Header = () => {
             </h1>
             <div className="social-links mt-3 text-center">
               <a href="#" className="twitter">
-                <i className="bx bxl-twitter" />
+                <i className="bi bi-twitter-x" />
               </a>
               <a href="#" className="facebook">
-                <i className="bx bxl-facebook" />
+                <i className="bi bi-facebook" />
               </a>
               <a href="#" className="instagram">
-                <i className="bx bxl-instagram" />
+                <i className="bi bi-instagram" />
               </a>
               <a href="#" className="google-plus">
-                <i className="bx bxl-skype" />
+                <i className="bi bi-skype" />
               </a>
               <a href="#" className="linkedin">
-                <i className="bx bxl-linkedin" />
+                <i className="bi bi-linkedin" />
               </a>
             </div>
           </div>
@@ -37,32 +37,32 @@ const Header = () => {
             <ul>
               <li>
                 <a href="#hero" className="nav-link scrollto active">
-                  <i className="bx bx-home" /> <span>Home</span>
+                  <i className="bi bi-house" /> <span>Home</span>
                 </a>
               </li>
               <li>
                 <a href="#about" className="nav-link scrollto">
-                  <i className="bx bx-user" /> <span>About</span>
+                  <i className="bi bi-person-circle" /> <span>About</span>
                 </a>
               </li>
               <li>
                 <a href="#resume" className="nav-link scrollto">
-                  <i className="bx bx-file-blank" /> <span>Resume</span>
+                  <i className="bi bi-file-earmark-text" /> <span>Resume</span>
                 </a>
               </li>
               <li>
                 <a href="#portfolio" className="nav-link scrollto">
-                  <i className="bx bx-book-content" /> <span>Portfolio</span>
+                  <i className="bi bi-boxes" /> <span>Portfolio</span>
                 </a>
               </li>
               <li>
                 <a href="#services" className="nav-link scrollto">
-                  <i className="bx bx-server" /> <span>Services</span>
+                  <i className="bi bi-hdd-stack" /> <span>Services</span>
                 </a>
               </li>
               <li>
                 <a href="#contact" className="nav-link scrollto">
-                  <i className="bx bx-envelope" /> <span>Contact</span>
+                  <i className="bi bi-envelope" /> <span>Contact</span>
                 </a>
               </li>
             </ul>
