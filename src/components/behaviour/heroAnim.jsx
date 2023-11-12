@@ -1,19 +1,32 @@
-// TypedText.jsx
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Typed from 'typed.js';
 
 const TypedText = () => {
+  const [typedInstance, setTypedInstance] = useState(null);
+
   useEffect(() => {
     const typedElement = document.querySelector('.typed');
     if (typedElement) {
-      let typedStrings = ['game developer', 'web developer', 'illustrator'];
-      new Typed('.typed', {
+      const typedStrings = ['game developer', 'web developer', 'illustrator'];
+
+      const options = {
         strings: typedStrings,
-        loop: true,
         typeSpeed: 100,
         backSpeed: 50,
-        backDelay: 2000
-      });
+        backDelay: 2000,
+        loop: true,
+        cursorChar: '', // Removing cursor for the entire text
+      };
+
+      const newTypedInstance = new Typed('.typed', options);
+      setTypedInstance(newTypedInstance);
+
+      return () => {
+        // Destroy the Typed instance on unmount
+        if (typedInstance) {
+          typedInstance.destroy();
+        }
+      };
     }
   }, []);
 
