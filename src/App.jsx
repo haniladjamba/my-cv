@@ -1,35 +1,52 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useEffect } from 'react';
+import AOS from 'aos';
+import Header from "./components/header";
+import Hero from "./components/hero";
+import About from "./components/about";
+import Facts from "./components/AboutComponents/facts";
+import Skills from "./components/AboutComponents/skills";
+import Resume from "./components/resume";
+import Portofolio from "./components/portofolio";
+import Services from "./components/services";
+import Contact from "./components/contact";
+import Footer from "./components/footer";
+
+import ScrollListener from './components/behaviour/schrool'
+import PortfolioIsotope from './components/behaviour/portofoliosotope';
+import PortfolioLightbox from './components/behaviour/portofolioLightBox';
+import PortfolioDetailsSlider from './components/behaviour/portofolioSlider';
 
 function App() {
-  const [count, setCount] = useState(0)
+  
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      easing: "ease-in-out",
+      once: true,
+      mirror: false,
+    });
+  }, []);
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <ScrollListener />
+      <PortfolioIsotope />
+      <Header />
+      <Hero />
+      <main id="main">
+        <About />
+        <Facts />
+        <Skills />
+        <Resume />
+        <PortfolioDetailsSlider />
+        <PortfolioLightbox />
+        <Portofolio />
+        <Services />
+        <Contact />
+      </main>
+      <Footer />
     </>
   )
 }
 
-export default App
+export default App;
