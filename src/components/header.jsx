@@ -8,7 +8,7 @@ const Header = () => {
         <div className="d-flex flex-column">
           <div className="profile">
             <img
-              src="src/assets/img/dingin.jpg"
+              src="./src/assets/img/dingin.jpg"
               alt
               className="img-fluid rounded-circle"
             />
@@ -16,20 +16,11 @@ const Header = () => {
               <a href="index.html">Hanz</a>
             </h1>
             <div className="social-links mt-3 text-center">
-              <a href="#" className="twitter">
-                <i className="bi bi-twitter-x" />
+              <a href="https://www.youtube.com/channel/UCKcUpNRh50El5ARPyjDUUZg" target="_blank" className="twitter" rel="noreferrer">
+                <i className="bi bi-youtube" />
               </a>
-              <a href="#" className="facebook">
-                <i className="bi bi-facebook" />
-              </a>
-              <a href="#" className="instagram">
-                <i className="bi bi-instagram" />
-              </a>
-              <a href="#" className="google-plus">
-                <i className="bi bi-skype" />
-              </a>
-              <a href="#" className="linkedin">
-                <i className="bi bi-linkedin" />
+              <a href="https://github.com/haniladjamba" target="_blank" className="facebook" rel="noreferrer">
+                <i className="bi bi-github" />
               </a>
             </div>
           </div>
