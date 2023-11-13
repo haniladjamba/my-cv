@@ -931,7 +931,8 @@ section {
   width: 100%;
   padding: 30px;
   background: #040b14;
-  box-shadow: 0 0 24px 0 rgba(255, 255, 255, 0.404)
+  box-shadow: 0 0 24px 0 rgba(255, 255, 255, 0.404);
+  border-radius: 15px;
 }
 
 .contact .php-email-form .form-group {

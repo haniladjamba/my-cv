@@ -36,7 +36,7 @@ const Contact = () => {
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.5973543781793!2d124.98139947472475!3d1.41750279856913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32870a95df6309dd%3A0x21d86e4847556add!2sUniversitas%20Klabat!5e0!3m2!1sid!2sid!4v1699806944517!5m2!1sid!2sid"
                     frameBorder={0}
-                    style={{ border: 0, width: "100%", height: 290 }}
+                    style={{ border: 0, width: "100%", height: 290, borderRadius: "8px" }}
                     allowFullScreen
                   />
                 </div>
