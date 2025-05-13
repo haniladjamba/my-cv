@@ -7,7 +7,7 @@ const TypedText = () => {
   useEffect(() => {
     const typedElement = document.querySelector('.typed');
     if (typedElement) {
-      const typedStrings = ['game developer', 'web developer', 'illustrator'];
+      const typedStrings = ['game developer', 'mobile developer'];
 
       const options = {
         strings: typedStrings,
