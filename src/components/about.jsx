@@ -79,10 +79,22 @@ const About = () => {
               <img src={"/portofolio/coolit.jpg"} className="img-fluid" alt />
             </div>
             <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-              <h3>
+              <a
+                href="https://bigdade.id/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  textDecoration: "none",
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: "6px",
+                }}
+              >
+                <h3>
                 Game Developer &amp; Mobile Developer at{" "}
                 <strong style={{ color: "red" }}>BigDade Studio</strong>
               </h3>
+              </a>
               <p className="fst-italic">
                 Exploring the dynamic realms of coding, I am driven by an
                 insatiable curiosity for crafting immersive gaming experiences
@@ -253,7 +265,7 @@ const About = () => {
                   }}
                 >
                   <strong style={{ color: "#fef7ce" }}>
-                     Adobe Certified Professional in Visual Design
+                    Adobe Certified Professional in Visual Design
                   </strong>
                 </a>
                 , a recognition of my proficiency in industry-standard design

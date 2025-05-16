@@ -485,10 +485,15 @@ section {
 
 /* Skills Modal Section */
 .skill-card {
+  width: 210px;
+  height: auto;
+  padding: 0.1px;
   transition: transform 0.3s ease;
   cursor: pointer;
   border: none;
   border-radius: 15px;
+  background: #040b14;
+  border: 2px solid #1b1920;
 }
 
 .skill-card:hover {
@@ -510,7 +515,7 @@ section {
 }
 
 .modal-content {
-  background: white;
+  background: #1b1920;
   padding: 2rem;
   border-radius: 10px;
   max-width: 600px;
@@ -525,6 +530,7 @@ section {
 }
 
 .close-btn {
+  color: #7d7d7d;
   background: none;
   border: none;
   font-size: 2rem;
@@ -539,16 +545,31 @@ section {
   padding: 0;
 }
 
+.skill-list li {
+  color: #898989;
+}
+
 .skill-item {
   padding: 0.8rem;
   margin: 0.5rem 0;
-  background: #f8f9fa;
+  background: #1b1920;
   border-radius: 5px;
   transition: background 0.3s ease;
 }
 
 .skill-item:hover {
-  background: #e9ecef;
+  background: #414141;
+}
+
+.skill-card h3 {
+  margin: 0px 0 !important;
+  color: #fef7ce;
+  font-weight: 700;
+}
+
+.skill-card img {
+  height: 220px;
+  width: 100%;
 }
 
 /*--------------------------------------------------------------
@@ -610,6 +631,10 @@ section {
   top: 0;
   background: #fed6ce;
   border: 2px solid #AC3C53;
+}
+
+.resume .resume-item span {
+  font-weight: 700;
 }
 
 /*--------------------------------------------------------------

@@ -51,7 +51,7 @@ const Facts = () => {
             <p>
               Alongside project work, I hold multiple certifications including{" "}
               <strong>Adobe Certified Professional in Visual Design</strong>,{" "}
-              <strong>Bangkit Academy Mobile Development Graduate</strong>, and{" "}
+              <strong>Bangkit Academy Mobile Development Distict Graduate</strong>, and{" "}
               <strong>Mobile App Development at Dicoding Academy</strong>. I’ve
               worked in multidisciplinary teams of up to 10 members,
               collaborating closely with designers, artists, and engineers in
