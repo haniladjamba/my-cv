@@ -8,93 +8,180 @@ const Resume = () => {
           <div className="section-title">
             <h2>Resume</h2>
             <p>
-            I am proficient in game development and web design, 
-            driven by a fervent passion for merging creativity and 
-            technology. With a background in illustration and several 
-            completed game projects, I bring a unique blend of artistic 
-            vision and technical expertise. Seeking to leverage my diverse 
-            skill set to create innovative, immersive gaming experiences 
-            while continuing to excel in web development and illustration.
+              With over 1,720+ hours of hands-on programming and game development
+              experience, I’ve grown from a self-taught coding enthusiast to a
+              fullstack developer trusted with high-impact responsibilities in a
+              professional game studio. My journey includes formal education in
+              Informatics, then specialized training in Unity and Android
+              development, and finally real-world experience delivering freelance
+              projects and contributing to commercial game titles.
             </p>
           </div>
           <div className="row">
             <div className="col-lg-6" data-aos="fade-up">
               <h3 className="resume-title">Education</h3>
               <div className="resume-item">
-                <h4>Schools of Fine Arts</h4>
-                <h5>2018 - 2020</h5>
+                <h4>Bachelor of Computer Science</h4>
+                <h5>2021 - 2025</h5>
                 <p>
-                Armed with over two years of dedicated study in 
-                Fine Arts, I transitioned seamlessly into the 
-                realm of freelance artistry. This journey equipped 
-                me with a strong foundation in visual storytelling, 
-                illustration, and creative problem-solving. As a 
-                freelance artist, I've had the opportunity to 
-                apply my skills across diverse projects, merging 
-                my passion for artistic expression with real-world 
-                applications in various mediums and platforms.
+                  <a
+                    href="https://www.unklab.ac.id/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      textDecoration: "none",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: "6px",
+                      color: "#f8f9fa",
+                    }}
+                  >
+                    <em>University of Klabat, Airmandidi, Manado</em>
+                  </a>
+                </p>
+                <p>
+                  As an Informatics student at Universitas Klabat, I’ve built a
+                  strong foundation in programming and software development,
+                  earning the nickname “Coding Wizard” from my peers. My passion
+                  for game development emerged during a computer graphics class
+                  in 2023, where I created my first 3D action game, Sphere Sumō.
+                  Since then, I’ve pursued game-related projects that
+                  strengthened both my coding and game design capabilities.
                 </p>
               </div>
               <div className="resume-item">
-                <h4>Bachelor of Computer Science</h4>
-                <h5>2021 - present</h5>
+                <h4>Bangkit Academy – Android Development Track</h4>
+                <h5>February 2024 - June 2024</h5>
                 <p>
-                  <em>University of Klabat, Airmandidi, Manado</em>
+                  <a
+                    href="https://grow.google/intl/id_id/bangkit/?tab=mobile-development"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      textDecoration: "none",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: "6px",
+                      color: "#f8f9fa",
+                    }}
+                  >
+                    <em>Bangkit led by Google, Goto, and Traveloka</em>
+                  </a>
                 </p>
                 <p>
-                Throughout my pursuit of a Bachelor's 
-                in Computer Science, I've been captivated by the 
-                world of coding from the very start. It's where 
-                I discovered my true passion. A fusion of 
-                storytelling and technology. I found my niche 
-                in game development, utilizing it as a canvas 
-                to not only enhance my coding skills but also 
-                to amplify the power of storytelling. This journey 
-                has not only nurtured my coding expertise but also 
-                sharpened my problem-solving skills, allowing me 
-                to weave intricate narratives and immersive 
-                experiences within the realm of game development.
+                  To broaden my software engineering skills, I joined the
+                  Bangkit Academy's Android Development program, where I worked
+                  with a team to create Huetiful. A mobile app that uses machine
+                  learning to recommend clothing colors based on skin tone. This
+                  experience enhanced my understanding of mobile development,
+                  UI/UX, and real-world team collaboration in a professional
+                  tech setting.
+                </p>
+              </div>
+              <div className="resume-item">
+                <h4>
+                  Unity Professional Training – Sponsored by BigDade Studio
+                </h4>
+                <h5>September 2024 - October 2024</h5>
+                <p>
+                  <a
+                    href="https://unity.com/learn/professionals"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      textDecoration: "none",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: "6px",
+                      color: "#f8f9fa",
+                    }}
+                  >
+                    <em>Unity Professional Training</em>
+                  </a>
+                </p>
+                <p>
+                  I was selected by BigDade Studio to join their Unity
+                  Professional Training program, preparing me to contribute to
+                  real-world game development. During this training, I developed
+                  Quiz Adventure Game, a 3D point-and-click title with
+                  interactive NPCs and original mechanics. The program elevated
+                  my Unity expertise and gave me practical experience in
+                  creating polished, production-ready games.
                 </p>
               </div>
             </div>
             <div className="col-lg-6" data-aos="fade-up" data-aos-delay={100}>
               <h3 className="resume-title">Working Experience</h3>
               <div className="resume-item">
-                <h4>Freelance Illustrator</h4>
-                <h5>2020 - Present</h5>
+                <h4>Freelance Programmer</h4>
+                <h5>2021 - Present</h5>
                 <ul>
                   <li>
-                    With over 15,000 hours of experience in this field
+                    Built 20+ mini projects for classmates and small business
+                    involving mobile apps, games, and web applications.
                   </li>
+                  <li>With over 420+ hours of experiences in this field</li>
                   <li>
-                    Working on books cover, posters, digital illustration and comic books.{" "}
-                  </li>
-                  <li>
-                    mastering the art of turning concepts into captivating visual 
-                    narratives, painting stories that resonate with depth and 
-                    imagination.
+                    Earned a reputation as the go-to “coding wizard” among peers
+                    due to reliable problem-solving and self-taught expertise.
                   </li>
                 </ul>
               </div>
               <div className="resume-item">
-                <h4>Game and Web developer</h4>
-                <h5>2022 - present</h5>
+                <h4>Game Developer – Fullstack</h4>
+                <h5>2024 – Present</h5>
                 <p>
-                  <em>Fullstack indie developer, Manado</em>
+                  <a
+                    href="https://bigdade.id/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      textDecoration: "none",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: "6px",
+                      color: "#f8f9fa",
+                    }}
+                  >
+                  <em>Fullstack game developer, BigDade Studio</em>  
+                  </a>
+                </p>
+                <p>
+                  Contributed over 1,720+ hours to two professional titles in a
+                  production pipeline, collaborating in agile workflows.
+                </p>
+                <p>
+                  <span>Mobile Third-Person Military Shooter</span>
                 </p>
                 <ul>
                   <li>
-                    Developed various 2D and 3D games (platformer,
-                    racing, shooter).
+                    Delivered for the Pameran Alutsista TNI (2024), with 3
+                    realistic combat zones and adaptive enemy AI.
                   </li>
                   <li>
-                    Developed small e-commerce website
+                    Engineered gameplay logic and behavior systems across Urban,
+                    Forest, and Desert environments.
                   </li>
                   <li>
-                    Joining the GDSC and be part of the IoT core team
+                    Ensured visual accuracy of 3 official Indonesian camouflage
+                    uniforms{" "}
+                  </li>
+                </ul>
+                <p>
+                  <span>Wardeka: PVP Shooter</span>
+                </p>
+                <ul>
+                  <li>
+                    Led the AoE skill system overhaul. Increasing player team
+                    coordination and gameplay depth.
                   </li>
                   <li>
-                    Working in collaboration in multiple teams at a time
+                    Implemented Photon multiplayer, syncing animations, skills,
+                    and VFX across fast-paced 5v5 matches.
+                  </li>
+                  <li>
+                    Implemented other mechanics such as slide movement mechanics
+                    and active ragdoll for character death animation
                   </li>
                 </ul>
               </div>
