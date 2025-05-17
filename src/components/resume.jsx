@@ -25,7 +25,7 @@ const Resume = () => {
                 <h5>2021 - 2025</h5>
                 <p>
                   <a
-                    href="https://www.unklab.ac.id/fakultas-ilmu-komputer/"
+                    href="https://www.unklab.ac.id/"
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{
@@ -71,7 +71,7 @@ const Resume = () => {
                 <p>
                   To broaden my software engineering skills, I joined the
                   Bangkit Academy's Android Development program, where I worked
-                  with a team to create Huetiful—a mobile app that uses machine
+                  with a team to create Huetiful. A mobile app that uses machine
                   learning to recommend clothing colors based on skin tone. This
                   experience enhanced my understanding of mobile development,
                   UI/UX, and real-world team collaboration in a professional
@@ -131,7 +131,20 @@ const Resume = () => {
                 <h4>Game Developer – Fullstack</h4>
                 <h5>2024 – Present</h5>
                 <p>
-                  <em>Fullstack indie developer, Manado</em>
+                  <a
+                    href="https://bigdade.id/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      textDecoration: "none",
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: "6px",
+                      color: "#f8f9fa",
+                    }}
+                  >
+                  <em>Fullstack game developer, BigDade Studio</em>  
+                  </a>
                 </p>
                 <p>
                   Contributed over 1,720+ hours to two professional titles in a

@@ -18,6 +18,7 @@ const Skills = () => {
       'Making interactive storytelling',
       'Quest and Puzzle Design in Video Games',
       'Level design',
+      'Unity Addressables system',
       '2D game design',
       'develop interactive UI',
     ],
@@ -99,6 +100,7 @@ const Skills = () => {
           <h2>Skills</h2>
           <p>
             I have acquired and practiced a wide range of technical and creative skills during my experience working on game and mobile application projects.
+            <em> Clicked the image below to view all acquired skills in that field</em>
           </p>
         </div>
 

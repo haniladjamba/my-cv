@@ -483,7 +483,7 @@ const Portofolio = () => {
                             <p>
                               <strong>Quiz Adventure</strong> is a 3D
                               point-and-click game developed as part of the
-                              <em>"Develop 3D Mobile Game in Unity"</em> course
+                              <em> "Develop 3D Mobile Game in Unity"</em> course
                               during the Unity Professional Training program I
                               attended. The game allows players to explore an
                               immersive game world, interact with diverse NPCs,
@@ -491,7 +491,7 @@ const Portofolio = () => {
                               unlock new areas. In total, players can unlock 5
                               different areas:
                               <strong>
-                                Coastal Town, Old Town, Downtown, Airport,
+                                 Coastal Town, Old Town, Downtown, Airport,
                               </strong>{" "}
                               and <strong>Military Base</strong>.
                             </p>
@@ -499,7 +499,7 @@ const Portofolio = () => {
                             <p>
                               Players roam freely through detailed environments,
                               encountering two types of NPCs:
-                              <strong>quiz givers</strong> and{" "}
+                              <strong> quiz givers</strong> and{" "}
                               <strong>information holders</strong>. Quizzes are
                               designed to be lore-driven and location-based —
                               for instance, players might be asked,

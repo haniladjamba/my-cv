@@ -9,19 +9,6 @@ const Facts = () => {
         <div className="container">
           <div className="section-title">
             <h2>Facts</h2>
-            {/* <p>
-            In addition to being fluent in Indonesian and English, 
-            I'm currently immersing myself in learning Japanese. I take pride in my diverse 
-            portfolio of completed game projects, encompassing both 2D 
-            and 3D creations, alongside the successful development of 
-            an e-commerce website. With over five years of experience 
-            as an illustrator, I've cultivated a keen eye for visual 
-            storytelling and design. My knack for problem-solving and 
-            creativity has not only led me to win several competitions, 
-            including coding challenges and mascot creation contests hosted 
-            by my campus, but has also enriched my approach to both technical 
-            and artistic endeavors. 
-            </p> */}
             <p>
               With a professional level of English proficiency, I bring clear
               communication and collaborative effectiveness to every team I
@@ -51,7 +38,7 @@ const Facts = () => {
             <p>
               Alongside project work, I hold multiple certifications including{" "}
               <strong>Adobe Certified Professional in Visual Design</strong>,{" "}
-              <strong>Bangkit Academy Mobile Development Distict Graduate</strong>, and{" "}
+              <strong>Bangkit Academy Mobile Development Distinct Graduate</strong>, and{" "}
               <strong>Mobile App Development at Dicoding Academy</strong>. I’ve
               worked in multidisciplinary teams of up to 10 members,
               collaborating closely with designers, artists, and engineers in
